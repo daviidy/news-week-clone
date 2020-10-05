@@ -135,7 +135,7 @@ a:hover {
   border-radius: 0;
   bottom: 0;
   color: #F72210;
-  font-size: 1.2rem;
+  font-size: 1rem;
   left: 0;
   position: absolute;
   width: auto;
@@ -163,7 +163,7 @@ a:hover {
   font-size: 1.3rem;
 }
 
-.card-title a:hover, .more a:hover {
+.card-title a:hover, .more a:hover, .debate a:hover {
   color: #000;
   text-decoration: underline #f72210;
 }
@@ -174,4 +174,47 @@ a:hover {
 
 .my-turn a:hover {
   color: #9A9A9A;
+}
+
+.sponsored {
+  border: 1px solid #dee2e6;
+}
+
+.sponsored .badge {
+  color: #3581f4;
+}
+
+.debate {
+  border-bottom: 4px solid #d9d9d9;
+  border-top: 4px solid #d9d9d9;
+  font-size: .8rem;
+  line-height: 20px;
+}
+
+.vs-debate {
+  position: relative;
+}
+
+.vs-debate::before, .vs-debate::after {
+  background-color: #d9d9d9;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.vs-debate::before {
+  top: 35%;
+}
+
+.vs-debate::after {
+  top: 50%;
+}
+
+.vs-debate div {
+  position: relative;
+  width: 10%;
+  z-index: 1;
 }
