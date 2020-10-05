@@ -31,6 +31,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+p {
+  font-weight: 100;
+}
+
 .row {
   margin-left: 0;
   margin-right: 0;
@@ -137,6 +141,12 @@ a:hover {
   width: auto;
 }
 
+.culture .badge {
+  background: #C2D4D7;
+  color: #000;
+  font-size: .9rem;
+}
+
 .card {
   border: 0;
 }
@@ -153,7 +163,15 @@ a:hover {
   font-size: 1.3rem;
 }
 
-.card-title a:hover {
+.card-title a:hover, .more a:hover {
   color: #000;
   text-decoration: underline #f72210;
+}
+
+.my-turn {
+  color: #9A9A9A;
+}
+
+.my-turn a:hover {
+  color: #9A9A9A;
 }
