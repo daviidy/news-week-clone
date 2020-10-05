@@ -1,0 +1,159 @@
+/*
+    CSS Reset
+*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+}
+
+/* Global Setting */
+body {
+  background: #F4F5F6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+a:hover {
+  color: #F72210;
+  text-decoration: none;
+}
+
+/*Header section */
+
+.header-top {
+  background-color: #F72210;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.meteo-div a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.meteo-div p {
+  color: #fff;
+}
+
+.logo {
+  fill: white;
+}
+
+.login {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-warning {
+  align-items: center;
+  border-radius: 24px;
+  color: #000;
+  display: flex;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header-bottom::before {
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 110px;
+}
+
+.header-bottom {
+  font-size: 1rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.header-bottom li:last-child {
+  border: 0;
+}
+
+.header-bottom li i {
+  display: grid;
+  place-items: center;
+}
+
+.header-bottom input {
+  width: 30%;
+}
+
+.header-bottom ul:last-child {
+  text-transform: uppercase;
+}
+
+.gray {
+  color: #807f84;
+}
+
+
+/*Main container*/
+
+.badge {
+  background: #E8E7E8;
+  border-radius: 0;
+  bottom: 0;
+  color: #F72210;
+  font-size: 1.2rem;
+  left: 0;
+  position: absolute;
+  width: auto;
+}
+
+.card {
+  border: 0;
+}
+
+.card .image {
+  position: relative;
+}
+
+.section-title {
+  color: #9A9A9A;
+}
+
+.card-title {
+  font-size: 1.3rem;
+}
+
+.card-title a:hover {
+  color: #000;
+  text-decoration: underline #f72210;
+}
