@@ -33,6 +33,7 @@ body {
 
 p {
   font-weight: 100;
+  color: #333;
 }
 
 .row {
@@ -163,7 +164,7 @@ a:hover {
   font-size: 1.3rem;
 }
 
-.card-title a:hover, .more a:hover, .debate a:hover {
+.card-title a:hover, .more a:hover, .debate a:hover, .opinion a:hover {
   color: #000;
   text-decoration: underline #f72210;
 }
