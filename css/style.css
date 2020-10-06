@@ -28,7 +28,7 @@ p {
 /* Global Setting */
 body {
   background: #F4F5F6;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -42,6 +42,11 @@ p {
 }
 
 a:hover {
+  color: #F72210;
+  text-decoration: none;
+}
+
+.nav-link:hover {
   color: #F72210;
   text-decoration: none;
 }
@@ -118,10 +123,6 @@ a:hover {
 
 .header-bottom input {
   width: 30%;
-}
-
-.header-bottom ul:last-child {
-  text-transform: uppercase;
 }
 
 .gray {
