@@ -32,8 +32,8 @@ body {
 }
 
 p {
-  font-weight: 100;
   color: #333;
+  font-weight: 100;
 }
 
 .row {
@@ -46,9 +46,13 @@ a:hover {
   text-decoration: none;
 }
 
-.nav-link:hover {
+.header-bottom .navbar-nav .nav-link:hover {
   color: #F72210;
   text-decoration: none;
+}
+
+.header-bottom .navbar-nav .nav-link {
+  color: #000;
 }
 
 /*Header section */
@@ -86,12 +90,7 @@ a:hover {
 }
 
 .btn-warning {
-  align-items: center;
   border-radius: 24px;
-  color: #000;
-  display: flex;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .header-bottom::before {
@@ -132,7 +131,7 @@ a:hover {
 
 /*Main container*/
 
-.badge {
+.main .badge {
   background: #E8E7E8;
   border-radius: 0;
   bottom: 0;
