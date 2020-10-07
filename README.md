@@ -19,7 +19,7 @@ We used Bootstrap.
 - Bootstrap
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/daviidy/news-week-clone/feature-branch/index.html)
+[Live Demo Link](https://daviidy.github.io/news-week-clone/)
 
 ## Authors
 
@@ -27,7 +27,7 @@ We used Bootstrap.
 
 - GitHub: [@daviidy](https://github.com/daviidy)
 - Twitter: [@DavidYao3](https://twitter.com/DavidYao3)
-- LinkedIn: [@nativeofcyber1](https://twitter.com/nativeofcyber1)
+- LinkedIn: [@DavidYao](https://www.linkedin.com/in/david-yao-6bb95299/)
 
 👤 **Nikola Zdrale**
 
