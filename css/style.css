@@ -41,13 +41,8 @@ p {
   margin-right: 0;
 }
 
-a:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
 .features {
-   background-color: #f4f5f6;
+  background-color: #f4f5f6;
 }
 
 .meteo-div a {
@@ -60,21 +55,8 @@ a:hover {
   font-size: 15px;
 }
 
-.features:hover {
-  background-color: #dbdcdd;
-}
-
-.features h3 a:hover {
-  text-decoration: none;
-}
-
 .header-bottom .navbar-nav .nav-link {
   color: #000;
-}
-
-.header-bottom .navbar-nav .nav-link:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 /* Header section */
@@ -131,6 +113,11 @@ a:hover {
   border: 0;
 }
 
+footer i {
+  color: #666;
+  font-size: 1.5rem;
+}
+
 .header-bottom li i {
   display: grid;
   place-items: center;
@@ -144,9 +131,10 @@ a:hover {
   color: #807f84;
 }
 
-/*Main container*/
+/* Main container */
 
-.main .badge, .magazine .badge {
+.main .badge, 
+.magazine .badge {
   background: #e8e7e8;
   border-radius: 0;
   bottom: 0;
@@ -160,15 +148,15 @@ a:hover {
 .culture .badge {
   background: #c2d4d7;
   color: #000;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .badge-magazine {
-   font-size: 15px;
+  font-size: 15px;
 }
 
 .article-magazine img {
-   height: 260px;
+  height: 260px;
 }
 
 .article-magazine h3 {
@@ -195,10 +183,6 @@ a:hover {
   color: #9a9a9a;
 }
 
-.my-turn a:hover {
-  color: #9a9a9a;
-}
-
 .sponsored {
   border: 1px solid #dee2e6;
 }
@@ -210,7 +194,7 @@ a:hover {
 .debate {
   border-bottom: 4px solid #d9d9d9;
   border-top: 4px solid #d9d9d9;
-  font-size: .8_rem;
+  font-size: 0.8rem;
   line-height: 20px;
 }
 
@@ -254,11 +238,28 @@ a:hover {
 
 /* footer */
 
-footer i {
-  color: #666;
-  font-size: 1.5rem;
-}
-
 footer i:hover {
   color: #3b5998;
+}
+
+.my-turn a:hover {
+  color: #9a9a9a;
+}
+
+a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.features:hover {
+  background-color: #dbdcdd;
+}
+
+.features h3 a:hover {
+  text-decoration: none;
+}
+
+.header-bottom .navbar-nav .nav-link:hover {
+  color: #f72210;
+  text-decoration: none;
 }
