@@ -47,7 +47,13 @@ a:hover {
 }
 
 .features {
- background-color: #f4f5f6;
+   background-color: #f4f5f6;
+}
+
+.meteo-div a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .features h3 {
@@ -59,11 +65,6 @@ a:hover {
 }
 
 .features h3 a:hover {
- text-decoration: none;
-}
-
-.header-bottom .navbar-nav .nav-link:hover {
-  color: #f72210;
   text-decoration: none;
 }
 
@@ -71,7 +72,12 @@ a:hover {
   color: #000;
 }
 
-/*Header section */
+.header-bottom .navbar-nav .nav-link:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+/* Header section */
 
 .header-top {
   background-color: #f72210;
@@ -82,12 +88,6 @@ a:hover {
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
-}
-
-.meteo-div a {
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 700;
 }
 
 .meteo-div p {
@@ -144,11 +144,10 @@ a:hover {
   color: #807f84;
 }
 
-
 /*Main container*/
 
 .main .badge, .magazine .badge {
-  background: #E8E7E8;
+  background: #e8e7e8;
   border-radius: 0;
   bottom: 0;
   color: #f72210;
@@ -159,18 +158,17 @@ a:hover {
 }
 
 .culture .badge {
-  background: #C2D4D7;
+  background: #c2d4d7;
   color: #000;
   font-size: .9rem;
 }
 
-.badge-magazine
-{
- font-size: 15px;
+.badge-magazine {
+   font-size: 15px;
 }
 
 .article-magazine img {
- height: 260px;
+   height: 260px;
 }
 
 .article-magazine h3 {
@@ -186,24 +184,19 @@ a:hover {
 }
 
 .section-title {
-  color: #9A9A9A;
+  color: #9a9a9a;
 }
 
 .card-title {
   font-size: 1.3rem;
 }
 
-.card-title a:hover, .more a:hover, .debate a:hover, .opinion a:hover {
-  color: #000;
-  text-decoration: underline #f72210;
-}
-
 .my-turn {
-  color: #9A9A9A;
+  color: #9a9a9a;
 }
 
 .my-turn a:hover {
-  color: #9A9A9A;
+  color: #9a9a9a;
 }
 
 .sponsored {
@@ -259,7 +252,7 @@ a:hover {
   background-size: cover;
 }
 
-/*footer*/
+/* footer */
 
 footer i {
   color: #666;
