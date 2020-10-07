@@ -258,13 +258,12 @@ a:hover {
   text-decoration: none;
 }
 
-
-.footer-ul{
+.footer-ul {
   font-size: 14px;
   color: #666;
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width: 991px) {
   .header-top {
     position: fixed;
     top: 0;
