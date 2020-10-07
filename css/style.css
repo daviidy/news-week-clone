@@ -133,7 +133,7 @@ footer i {
 
 /* Main container */
 
-.main .badge, 
+.main .badge,  
 .magazine .badge {
   background: #e8e7e8;
   border-radius: 0;
@@ -202,7 +202,8 @@ footer i {
   position: relative;
 }
 
-.vs-debate::before, .vs-debate::after {
+.vs-debate::before, 
+.vs-debate::after {
   background-color: #d9d9d9;
   content: "";
   display: block;
@@ -242,13 +243,13 @@ footer i:hover {
   color: #3b5998;
 }
 
-.my-turn a:hover {
-  color: #9a9a9a;
-}
-
 a:hover {
   color: #f72210;
   text-decoration: none;
+}
+
+.my-turn a:hover {
+  color: #9a9a9a;
 }
 
 .features:hover {
