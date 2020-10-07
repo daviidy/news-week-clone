@@ -27,7 +27,7 @@ We used Bootstrap.
 
 - GitHub: [@daviidy](https://github.com/daviidy)
 - Twitter: [@DavidYao3](https://twitter.com/DavidYao3)
-- LinkedIn: [@nativeofcyber1](https://www.linkedin.com/in/david-yao-6bb95299/)
+- LinkedIn: [@DavidYao](https://www.linkedin.com/in/david-yao-6bb95299/)
 
 👤 **Nikola Zdrale**
 
