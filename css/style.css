@@ -27,7 +27,7 @@ p {
 
 /* Global Setting */
 body {
-  background: #F4F5F6;
+  background: #f4f5f6;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -42,32 +42,28 @@ p {
 }
 
 a:hover {
-  color: #F72210;
+  color: #f72210;
   text-decoration: none;
 }
 
-.features
-{
+.features {
  background-color: #f4f5f6;
 }
 
-.features h3
-{
+.features h3 {
   font-size: 15px;
 }
 
-.features:hover{
+.features:hover {
   background-color: #dbdcdd;
 }
 
-.features h3 a:hover
-{
+.features h3 a:hover {
  text-decoration: none;
-
 }
 
 .header-bottom .navbar-nav .nav-link:hover {
-  color: #F72210;
+  color: #f72210;
   text-decoration: none;
 }
 
@@ -78,7 +74,7 @@ a:hover {
 /*Header section */
 
 .header-top {
-  background-color: #F72210;
+  background-color: #f72210;
   margin-left: 0;
   margin-right: 0;
 }
@@ -155,7 +151,7 @@ a:hover {
   background: #E8E7E8;
   border-radius: 0;
   bottom: 0;
-  color: #F72210;
+  color: #f72210;
   font-size: 1rem;
   left: 0;
   position: absolute;
@@ -173,13 +169,11 @@ a:hover {
  font-size: 15px;
 }
 
-.article-magazine img
-{
+.article-magazine img {
  height: 260px;
 }
 
-.article-magazine h3
-{
+.article-magazine h3 {
   line-height: 20px;
 }
 
