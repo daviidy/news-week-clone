@@ -19,7 +19,7 @@ We used Bootstrap.
 - Bootstrap
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/daviidy/news-week-clone/feature-branch/index.html)
+[Live Demo Link](https://daviidy.github.io/news-week-clone/)
 
 ## Authors
 
