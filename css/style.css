@@ -54,7 +54,6 @@ p {
 
 /* Header section */
 
-
 .meteo-div p {
   color: #fff;
 }
@@ -64,9 +63,9 @@ p {
 }
 
 .header-bottom::before {
-  background-color: #DC3545;
+  background-color: #dc3545;
   border-left: 12px solid white;
-  border-top: 13px solid #DC3545;
+  border-top: 13px solid #dc3545;
   content: "";
   display: block;
   position: absolute;
