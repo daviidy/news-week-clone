@@ -276,6 +276,45 @@ h2.text-danger {
   font-size: 14px;
 }
 
+.articles {
+  padding: 8rem;
+}
+
+#image-1 {
+  background: url(https://d.newsweek.com/en/full/1641924/fe-rbg-banner.jpg?w=466&h=311&l=44&t=48&q=90&f=af0eb1671e67711f928ea0a22de6d298) no-repeat center;
+  background-size: cover;
+}
+
+#image-2 {
+  background: url(https://d.newsweek.com/en/full/1640316/rbg-memorial.jpg?w=466&h=311&q=90&f=146a45944006b5527c954a6a500d9555) no-repeat center;
+  background-size: cover;
+}
+
+#image-3 {
+  background: url(https://d.newsweek.com/en/full/1641173/justice-ruth-bader-ginsburg.jpg?w=466&h=311&q=90&f=cf4341f456bddd4cc13da18215502584) no-repeat center;
+  background-size: cover;
+}
+
+#image-4 {
+  background: url(https://d.newsweek.com/en/full/1643970/per-latinovote-05-1158241102.jpg?w=466&h=311&q=90&f=9e390ddf1667e128c117c24d51cccd30) no-repeat center;
+  background-size: cover;
+}
+
+#image-5 {
+  background: url(https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.jpg?w=466&h=311&l=57&t=47&q=90&f=5ffa18499fcefd05d048d9bf9428c5bc) no-repeat center;
+  background-size: cover;
+}
+
+#image-6 {
+  background: url(https://d.newsweek.com/en/full/1639341/long-way-hero-2.jpg?w=466&h=311&q=90&f=b45862b19a0efd036338e3e8300df802) no-repeat center;
+  background-size: cover;
+}
+
+#image-7 {
+  background: url(https://d.newsweek.com/en/full/1643949/dissent.webp?w=480&h=320&q=90&f=69fbbe728e1afd8094f22fe131b01209) no-repeat center;
+  background-size: cover;
+}
+
 
 @media screen and (max-width: 991px) {
   .header-top {
@@ -285,10 +324,18 @@ h2.text-danger {
     left: 0;
     z-index: 1030;
   }
+
+  .articles {
+    padding: 12rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .vs-debate div {
     width: 3%;
+  }
+
+  .articles {
+    padding: 5rem;
   }
 }
