@@ -315,7 +315,6 @@ h2.text-danger {
   background-size: cover;
 }
 
-
 @media screen and (max-width: 991px) {
   .header-top {
     position: fixed;
