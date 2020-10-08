@@ -259,8 +259,13 @@ a:hover {
 }
 
 .footer-ul {
-  font-size: 14px;
+  font-size: 13px;
   color: #666;
+}
+
+h2.text-danger {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 991px) {

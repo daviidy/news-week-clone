@@ -7,10 +7,13 @@
     <link rel="icon" href="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/icons/favicon-32x32.png?v=1601030931">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/breakpoints.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d86848cfe0.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -18,8 +21,8 @@
   <body>
     <header>
       <div class="container-fluid pr-3 pl-3">
-        <div class="header-top row pt-3 pb-3 pr-0 pl-0">
-          <div class="col-4 meteo-div d-none d-lg-block">
+        <div class="header-top row pt-3 pb-3 pr-0 pl-0" id="header-top">
+          <div class="col-4 meteo-div d-none d-lg-block" id="meteo-div">
             <a href="#" title="Weather">
               <img width="24" src="https://g.newsweek.com/img/weather/34.png" alt="Weather Icon">
               27°
@@ -29,16 +32,16 @@
             <p class="mt-3">Fri, Oct 02, 2020</p>
 
           </div>
-          <div class="col-3 col-lg-4">
+          <div class="col-3 col-lg-4" id="main-logo">
             <img src="https://ahmetbozaci.github.io/NewsWeek-Clone/assets/images/logo-main.svg" alt="Logo">
           </div>
-          <div class="col-lg-4 col-9 d-flex justify-content-end align-items-end">
+          <div class="col-lg-4 col-9 d-flex justify-content-end align-items-end" id="login-section">
             <a class="text-white pr-2 d-none d-md-none d-block" href="#">
                 <i class="far fa-user-circle" aria-hidden="true"></i>
             </a>
             <a class="text-white d-none d-md-block d-lg-block pr-3" href="#">LOGIN</a>
             <a href="#" class="badge badge-pill badge-warning">SUBSCRIBE &gt;</a>
-            <a class="text-white d-lg-none d-md-block pl-3" href="#">
+            <a class="text-white d-lg-none d-md-block pl-3" href="#" id="bars">
               <i class="fas fa-bars fa-lg" aria-hidden="true"></i>
             </a>
           </div>
@@ -1549,7 +1552,7 @@
       </div>
       <div class="row bg-white">
         <div class="col-md-6 text-left pb-2 bg-white">
-          <h2 class="text-danger font-weight-bold">Culutre</h2>
+          <h2 class="text-danger font-weight-bold">Culture</h2>
         </div>
       </div>
       <div class="row bg-white">
@@ -1730,7 +1733,7 @@
 
       </div>
       <div class="row bg-white subscribe pb-5">
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-8 col-lg-7 col-xl-7">
           <h2 class="text-danger font-weight-bold text-uppercase">Subscribe</h2>
           <div class="row bg-light pt-5 pb-5">
             <div class="col-12 col-md-6 col-lg-5 position-relative pt-3 text-sm-center text-md-left">
@@ -1756,7 +1759,7 @@
 
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 col-lg-5 col-xl-5">
           <h2 class="text-danger font-weight-bold text-uppercase">Newsletter</h2>
           <div class="row">
             <div class="col-12 col-md-4 position-relative p-5 background-newsletter">
@@ -1909,6 +1912,8 @@
 
      </div>
      <!-- end of the main container -->
+
+     <script src="./js/index.js"></script>
 
 
   </body>
