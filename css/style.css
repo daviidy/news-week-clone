@@ -27,8 +27,11 @@ p {
 
 /* Global Setting */
 body {
-  background: #f4f5f6;
   font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  cursor: pointer;
 }
 
 p {
@@ -45,32 +48,12 @@ p {
   background-color: #f4f5f6;
 }
 
-.meteo-div a {
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 700;
-}
-
 .features h3 {
   font-size: 15px;
 }
 
-.header-bottom .navbar-nav .nav-link {
-  color: #000;
-}
-
 /* Header section */
 
-.header-top {
-  background-color: #f72210;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
 
 .meteo-div p {
   color: #fff;
@@ -80,49 +63,16 @@ p {
   fill: white;
 }
 
-.login {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.btn-warning {
-  border-radius: 24px;
-}
-
 .header-bottom::before {
-  background-color: #f72210;
+  background-color: #DC3545;
   border-left: 12px solid white;
-  border-top: 13px solid #f72210;
+  border-top: 13px solid #DC3545;
   content: "";
   display: block;
   position: absolute;
   right: 0;
   top: 0;
   width: 110px;
-}
-
-.header-bottom {
-  font-size: 1rem;
-}
-
-footer i {
-  color: #666;
-  font-size: 1.5rem;
-}
-
-.header-bottom li i {
-  display: grid;
-  place-items: center;
-}
-
-.header-bottom input {
-  width: 30%;
-}
-
-.gray {
-  color: #807f84;
 }
 
 /* Main container */
@@ -149,20 +99,8 @@ footer i {
   font-size: 15px;
 }
 
-.article-magazine img {
-  height: 260px;
-}
-
-.article-magazine h3 {
-  line-height: 20px;
-}
-
 .card {
   border: 0;
-}
-
-.card .image {
-  position: relative;
 }
 
 .section-title {
@@ -177,10 +115,6 @@ footer i {
   color: #9a9a9a;
 }
 
-.sponsored {
-  border: 1px solid #dee2e6;
-}
-
 .sponsored .badge {
   color: #3581f4;
 }
@@ -189,10 +123,6 @@ footer i {
   border-bottom: 4px solid #d9d9d9;
   border-top: 4px solid #d9d9d9;
   line-height: 20px;
-}
-
-.vs-debate {
-  position: relative;
 }
 
 .vs-debate::before,
@@ -215,7 +145,6 @@ footer i {
 }
 
 .vs-debate div {
-  position: relative;
   width: 10%;
   z-index: 1;
 }

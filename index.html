@@ -18,12 +18,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="bg-white">
     <header>
-      <div class="container-fluid pr-3 pl-3">
-        <div class="header-top row pt-3 pb-3 pr-0 pl-0" id="header-top">
-          <div class="col-4 meteo-div d-none d-lg-block" id="meteo-div">
-            <a href="#" title="Weather">
+      <div class="container-fluid pr-0 pl-0">
+        <div class="header-top row pt-3 pb-3 pr-0 pl-0 bg-danger ml-0 mr-0" id="header-top">
+          <div class="col-4 meteo-div d-none d-lg-block text-white" id="meteo-div">
+            <a class="font-weight-bold" href="#" title="Weather">
               <img width="24" src="https://g.newsweek.com/img/weather/34.png" alt="Weather Icon">
               27°
               <span class="weather-country">Abidjan, CI</span>
@@ -33,7 +33,9 @@
 
           </div>
           <div class="col-3 col-lg-4" id="main-logo">
-            <img src="https://ahmetbozaci.github.io/NewsWeek-Clone/assets/images/logo-main.svg" alt="Logo">
+            <a href="#">
+              <img src="https://ahmetbozaci.github.io/NewsWeek-Clone/assets/images/logo-main.svg" alt="Logo">
+            </a>
           </div>
           <div class="col-lg-4 col-9 d-flex justify-content-end align-items-end" id="login-section">
             <a class="text-white pr-2 d-none d-md-none d-block" href="#">
@@ -49,41 +51,41 @@
         <nav class="d-none d-lg-block navbar navbar-light bg-white  navbar-expand-sm px-1 header-bottom pt-3 bg-white border-bottom">
           <ul class="navbar-nav pb-3">
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">U.S.</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">U.S.</a>
             </li>
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">World</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">World</a>
             </li>
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">Business</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">Business</a>
             </li>
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">Tech & Science</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">Tech & Science</a>
             </li>
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">Culture</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">Culture</a>
             </li>
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">Newsgeek</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">Newsgeek</a>
             </li>
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">Sports</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">Sports</a>
             </li>
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">Health</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">Health</a>
             </li>
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">The Debate</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">The Debate</a>
             </li>
             <li class="nav-item border-right">
-              <a class="nav-link" href="#">Vantage</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">Vantage</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Weather</a>
+              <a class="nav-link text-dark font-weight-bold" href="#">Weather</a>
             </li>
-            <li class="d-flex aling-items-center nav-item">
-              <input placeholder="Search" type="text" name="search">
-              <i class="fas fa-search"></i>
+            <li class="d-flex nav-item">
+              <input class="w-50" placeholder="Search" type="text" name="search">
+              <i class="fas fa-search pt-2"></i>
             </li>
           </ul>
         </nav>
@@ -92,26 +94,26 @@
             <li class="nav-item">
               <a class="nav-link active text-dark font-weight-bold" href="#">Trending</a>
             </li>
-            <li class="nav-item gray pl-3">
+            <li class="nav-item pl-3">
               <a class="nav-link" href="#">Donald Trump</a>
             </li>
-            <li class="nav-item gray pl-3">
+            <li class="nav-item text-muted pl-3">
               <a class="nav-link" href="#">Joe Biden</a>
             </li>
-            <li class="nav-item gray pl-3">
+            <li class="nav-item text-muted pl-3">
               <a class="nav-link" href="#">Stimulus Package</a>
             </li>
-            <li class="nav-item gray pl-3">
+            <li class="nav-item text-muted pl-3">
               <a class="nav-link" href="#">Coronavirus</a>
             </li>
-            <li class="nav-item gray pl-3">
+            <li class="nav-item text-muted pl-3">
               <a class="nav-link" href="#">2020 Election</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="main container-fluid pr-lg-3 pl-lg-3 pt-xs-5 pt-sm-5 pt-md-5 pt-lg-0">
+    <div class="main container-fluid pr-0 pl-0 pt-sm-5 mt-sm-5 pt-md-4 mt-md-4 pt-lg-0 mt-lg-0">
 
       <!--features section for small screen-->
       <div class="row d-block d-md-none d-lg-none d-xl-none">
@@ -119,7 +121,7 @@
         <div class="col-12">
           <h2 class="mb-3 text-uppercase section-title">Top Stories</h2>
           <article class="card">
-            <div class="image">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1646881/2020-election-donald-trump-joe-biden-getty.jpg?w=591&amp;h=364&amp;f=2cc45882ca5bf49453bfc0b87cbfc1e1" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Politics</p>
             </div>
@@ -153,7 +155,7 @@
 
           <h2 class="mb-3 text-uppercase section-title">Featured Stories</h2>
           <article class="card">
-            <div class="image">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1645885/donald-melania-trump-debate.webp?w=397&h=265&q=90&f=e434ccded94ac92cf7401b2859c7d23e" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Politics</p>
             </div>
@@ -169,7 +171,7 @@
 
 
           <article class="card">
-            <div class="image">
+            <div class="position-relative">
               <img class="card-img-top" src="https://oschoolelearning.com/images/divers/osch.jpg" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">U.S.</p>
             </div>
@@ -185,7 +187,7 @@
 
 
           <article class="card">
-            <div class="image">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1645826/jaime-harrison-lindsey-graham.webp?w=397&h=265&q=90&f=2d07f592deda1943a4e425fc6417914c" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">U.S.</p>
             </div>
@@ -201,7 +203,7 @@
 
 
           <article class="card">
-            <div class="image">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1645826/jaime-harrison-lindsey-graham.webp?w=397&h=265&q=90&f=2d07f592deda1943a4e425fc6417914c" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">U.S.</p>
             </div>
@@ -217,7 +219,7 @@
 
 
           <article class="card">
-            <div class="image">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1645809/foster-care-adoption-racism-fatherhood.webp?w=397&h=265&q=90&f=734864010f90e330a801df54ad4e5d7b" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">My Turn</p>
             </div>
@@ -252,8 +254,8 @@
                 </div>
             </div>
             <div class="row mb-4 w-100">
-              <div class="col-12 vs-debate">
-                  <div class="bg-dark rounded-circle text-white text-center mx-auto">
+              <div class="col-12 vs-debate position-relative">
+                  <div class="bg-dark rounded-circle text-white text-center mx-auto position-relative">
                     VS
                   </div>
               </div>
@@ -398,8 +400,8 @@
 
         <!--sponsored sectios (right side) -->
         <div class="col-12">
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -413,8 +415,8 @@
             </div>
           </article>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1640732/holy-angel-university.jpg?w=500&h=333&f=eb1178ccc2ae44eb6ce60701d4e0cf7f" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -428,8 +430,8 @@
             </div>
           </article>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1641228/worlds-best-specialized-hospitals-2021.png?w=500&h=333&f=78fc1236f2add4e7e946c17e20a9b978" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -443,8 +445,8 @@
             </div>
           </article>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1630878/best-online-shops-2021.png?w=500&h=333&f=46c7b25c74ea86488ef5b9c837c4f393" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -458,8 +460,8 @@
             </div>
           </article>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1627222/americas-best-physical-rehabilitation-centers-2020.png?w=500&h=333&f=77ba5dea483fdf8b3cd3a4329fb0b853" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -473,8 +475,8 @@
             </div>
           </article>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -671,7 +673,7 @@
           <div class="row my-turn">
             <div class="col-md-4 pl-0">
               <article class="card">
-                <div class="image">
+                <div class="position-relative">
                   <img class="card-img-top" src="https://d.newsweek.com/en/full/1646357/coronavirus-pandemic-death-family.jpg?w=397&amp;h=397&amp;f=742d6559dd401252982aaf8aaf99ffc4" alt="img">
                 </div>
                 <div class="card-body pl-0 pr-0">
@@ -686,7 +688,7 @@
 
             <div class="col-md-4 pl-0">
               <article class="card">
-                <div class="image">
+                <div class="position-relative">
                   <img class="card-img-top" src="https://d.newsweek.com/en/full/1645809/foster-care-adoption-racism-fatherhood.jpg?w=397&amp;h=397&amp;f=ef7db70a9d6a23468538f5b9bc9f512c" alt="img">
                 </div>
                 <div class="card-body pl-0 pr-0">
@@ -701,7 +703,7 @@
 
             <div class="col-md-4 pl-0">
               <article class="card">
-                <div class="image">
+                <div class="position-relative">
                   <img class="card-img-top" src="https://d.newsweek.com/en/full/1646981/wildlife-coyote-peterson-stings-bees.jpg?w=397&amp;h=397&amp;f=59f0ab5a6eafd874d699b95cd6019c70" alt="img">
                 </div>
                 <div class="card-body pl-0 pr-0">
@@ -720,7 +722,7 @@
           <div class="row my-turn culture">
             <div class="col-md-4 pl-0">
               <article class="card">
-                <div class="image">
+                <div class="position-relative">
                   <p class="badge badge-secondary text-uppercase text-left">EMMYS</p>
                   <img class="card-img-top" src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.jpg?w=397&amp;h=397&amp;l=57&amp;t=47&amp;f=e5942c36302659ac5aa06f4fe5a7f5f1" alt="img">
                 </div>
@@ -736,7 +738,7 @@
 
             <div class="col-md-4 pl-0">
               <article class="card">
-                <div class="image">
+                <div class="position-relative">
                   <p class="badge badge-secondary text-uppercase text-left">U.S.</p>
                   <img class="card-img-top" src="https://d.newsweek.com/en/full/1640554/zendaya.webp?w=397&amp;h=397&amp;f=8e5f8ea8c3c7d315e48c42d9d4ae7f63" alt="img">
                 </div>
@@ -752,7 +754,7 @@
 
             <div class="col-md-4 pl-0">
               <article class="card">
-                <div class="image">
+                <div class="position-relative">
                   <p class="badge badge-secondary text-uppercase text-left">emmys</p>
                   <img class="card-img-top" src="https://d.newsweek.com/en/full/1645381/100-best-rock-albums-all-time-according-critics.png?w=397&amp;h=397&amp;f=4fac5a43a9d8890fa4ae6281e59ace15" alt="img">
                 </div>
@@ -771,8 +773,8 @@
 
         <!--sponsored articles (left side)-->
         <div class="col-12">
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -797,8 +799,8 @@
             <button class="text-center bg-danger rounded border-0 font-weight-bolder text-white mb-4 w-75 mx-auto" type="button"> FREE SIGN UP</button>
           </div>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -812,8 +814,8 @@
             </div>
           </article>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -827,8 +829,8 @@
             </div>
           </article>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -842,8 +844,8 @@
             </div>
           </article>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Rankings</p>
             </div>
@@ -857,8 +859,8 @@
             </div>
           </article>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Survey</p>
             </div>
@@ -872,8 +874,8 @@
             </div>
           </article>
 
-          <article class="mb-3 card sponsored">
-            <div class="image">
+          <article class="mb-3 card sponsored border">
+            <div class="position-relative">
               <img class="card-img-top" src="https://d.newsweek.com/en/full/1640732/holy-angel-university.jpg?w=500&h=333&f=eb1178ccc2ae44eb6ce60701d4e0cf7f" alt="img">
               <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
             </div>
@@ -898,7 +900,7 @@
               <div class="col-lg-4 col-md-6">
                 <h2 class="mb-3 text-uppercase section-title">Featured Stories</h2>
                 <article class="card">
-                  <div class="image">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1645885/donald-melania-trump-debate.webp?w=397&h=265&q=90&f=e434ccded94ac92cf7401b2859c7d23e" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">Politics</p>
                   </div>
@@ -914,7 +916,7 @@
 
 
                 <article class="card">
-                  <div class="image">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://oschoolelearning.com/images/divers/osch.jpg" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">U.S.</p>
                   </div>
@@ -930,7 +932,7 @@
 
 
                 <article class="card">
-                  <div class="image">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1645826/jaime-harrison-lindsey-graham.webp?w=397&h=265&q=90&f=2d07f592deda1943a4e425fc6417914c" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">U.S.</p>
                   </div>
@@ -946,7 +948,7 @@
 
 
                 <article class="card">
-                  <div class="image">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1645826/jaime-harrison-lindsey-graham.webp?w=397&h=265&q=90&f=2d07f592deda1943a4e425fc6417914c" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">U.S.</p>
                   </div>
@@ -962,7 +964,7 @@
 
 
                 <article class="card">
-                  <div class="image">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1645809/foster-care-adoption-racism-fatherhood.webp?w=397&h=265&q=90&f=734864010f90e330a801df54ad4e5d7b" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">My Turn</p>
                   </div>
@@ -976,8 +978,8 @@
                   </div>
                 </article>
 
-                <article class="mb-3 card sponsored">
-                  <div class="image">
+                <article class="mb-3 card sponsored border">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
                   </div>
@@ -991,8 +993,8 @@
                   </div>
                 </article>
 
-                <article class="mb-3 card sponsored">
-                  <div class="image">
+                <article class="mb-3 card sponsored border">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1640732/holy-angel-university.jpg?w=500&h=333&f=eb1178ccc2ae44eb6ce60701d4e0cf7f" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
                   </div>
@@ -1006,8 +1008,8 @@
                   </div>
                 </article>
 
-                <article class="mb-3 card sponsored">
-                  <div class="image">
+                <article class="mb-3 card sponsored border">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1641228/worlds-best-specialized-hospitals-2021.png?w=500&h=333&f=78fc1236f2add4e7e946c17e20a9b978" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
                   </div>
@@ -1021,8 +1023,8 @@
                   </div>
                 </article>
 
-                <article class="mb-3 card sponsored">
-                  <div class="image">
+                <article class="mb-3 card sponsored border">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1630878/best-online-shops-2021.png?w=500&h=333&f=46c7b25c74ea86488ef5b9c837c4f393" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
                   </div>
@@ -1036,8 +1038,8 @@
                   </div>
                 </article>
 
-                <article class="mb-3 card sponsored">
-                  <div class="image">
+                <article class="mb-3 card sponsored border">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1627222/americas-best-physical-rehabilitation-centers-2020.png?w=500&h=333&f=77ba5dea483fdf8b3cd3a4329fb0b853" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
                   </div>
@@ -1051,8 +1053,8 @@
                   </div>
                 </article>
 
-                <article class="mb-3 card sponsored">
-                  <div class="image">
+                <article class="mb-3 card sponsored border">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
                   </div>
@@ -1070,7 +1072,7 @@
               <div class="col-lg-8 col-md-6">
                 <h2 class="mb-3 text-uppercase section-title">Top Stories</h2>
                 <article class="card">
-                  <div class="image">
+                  <div class="position-relative">
                     <img class="card-img-top" src="https://d.newsweek.com/en/full/1646881/2020-election-donald-trump-joe-biden-getty.jpg?w=591&h=364&f=2cc45882ca5bf49453bfc0b87cbfc1e1" alt="img">
                     <p class="badge badge-secondary text-uppercase text-left">Politics</p>
                   </div>
@@ -1102,7 +1104,7 @@
                 <div class="row my-turn">
                   <div class="col-md-4 pl-0">
                     <article class="card">
-                      <div class="image">
+                      <div class="position-relative">
                         <img class="card-img-top" src="https://d.newsweek.com/en/full/1646357/coronavirus-pandemic-death-family.jpg?w=397&h=397&f=742d6559dd401252982aaf8aaf99ffc4" alt="img">
                       </div>
                       <div class="card-body pl-0 pr-0">
@@ -1117,7 +1119,7 @@
 
                   <div class="col-md-4 pl-0">
                     <article class="card">
-                      <div class="image">
+                      <div class="position-relative">
                         <img class="card-img-top" src="https://d.newsweek.com/en/full/1645809/foster-care-adoption-racism-fatherhood.jpg?w=397&h=397&f=ef7db70a9d6a23468538f5b9bc9f512c" alt="img">
                       </div>
                       <div class="card-body pl-0 pr-0">
@@ -1132,7 +1134,7 @@
 
                   <div class="col-md-4 pl-0">
                     <article class="card">
-                      <div class="image">
+                      <div class="position-relative">
                         <img class="card-img-top" src="https://d.newsweek.com/en/full/1646981/wildlife-coyote-peterson-stings-bees.jpg?w=397&h=397&f=59f0ab5a6eafd874d699b95cd6019c70" alt="img">
                       </div>
                       <div class="card-body pl-0 pr-0">
@@ -1151,7 +1153,7 @@
                 <div class="row my-turn culture">
                   <div class="col-md-4 pl-0">
                     <article class="card">
-                      <div class="image">
+                      <div class="position-relative">
                         <p class="badge badge-secondary text-uppercase text-left">EMMYS</p>
                         <img class="card-img-top" src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.jpg?w=397&h=397&l=57&t=47&f=e5942c36302659ac5aa06f4fe5a7f5f1" alt="img">
                       </div>
@@ -1167,7 +1169,7 @@
 
                   <div class="col-md-4 pl-0">
                     <article class="card">
-                      <div class="image">
+                      <div class="position-relative">
                         <p class="badge badge-secondary text-uppercase text-left">U.S.</p>
                         <img class="card-img-top" src="https://d.newsweek.com/en/full/1640554/zendaya.webp?w=397&h=397&f=8e5f8ea8c3c7d315e48c42d9d4ae7f63" alt="img">
                       </div>
@@ -1183,7 +1185,7 @@
 
                   <div class="col-md-4 pl-0">
                     <article class="card">
-                      <div class="image">
+                      <div class="position-relative">
                         <p class="badge badge-secondary text-uppercase text-left">emmys</p>
                         <img class="card-img-top" src="https://d.newsweek.com/en/full/1645381/100-best-rock-albums-all-time-according-critics.png?w=397&h=397&f=4fac5a43a9d8890fa4ae6281e59ace15" alt="img">
                       </div>
@@ -1391,7 +1393,7 @@
                   </div>
               </div>
               <div class="row mb-4 w-100">
-                <div class="col-12 vs-debate">
+                <div class="col-12 vs-debate position-relative">
                     <div class="bg-dark rounded-circle text-white text-center mx-auto">
                       VS
                     </div>
@@ -1534,8 +1536,8 @@
                 </div>
             </div>
 
-            <article class="mb-3 card sponsored">
-              <div class="image">
+            <article class="mb-3 card sponsored border">
+              <div class="position-relative">
                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
                 <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
               </div>
@@ -1560,8 +1562,8 @@
               <button class="text-center bg-danger rounded border-0 font-weight-bolder text-white mb-4 w-75 mx-auto" type="button"> FREE SIGN UP</button>
             </div>
 
-            <article class="mb-3 card sponsored">
-              <div class="image">
+            <article class="mb-3 card sponsored border">
+              <div class="position-relative">
                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
                 <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
               </div>
@@ -1575,8 +1577,8 @@
               </div>
             </article>
 
-            <article class="mb-3 card sponsored">
-              <div class="image">
+            <article class="mb-3 card sponsored border">
+              <div class="position-relative">
                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
                 <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
               </div>
@@ -1590,8 +1592,8 @@
               </div>
             </article>
 
-            <article class="mb-3 card sponsored">
-              <div class="image">
+            <article class="mb-3 card sponsored border">
+              <div class="position-relative">
                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
                 <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
               </div>
@@ -1605,8 +1607,8 @@
               </div>
             </article>
 
-            <article class="mb-3 card sponsored">
-              <div class="image">
+            <article class="mb-3 card sponsored border">
+              <div class="position-relative">
                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
                 <p class="badge badge-secondary text-uppercase text-left">Rankings</p>
               </div>
@@ -1620,8 +1622,8 @@
               </div>
             </article>
 
-            <article class="mb-3 card sponsored">
-              <div class="image">
+            <article class="mb-3 card sponsored border">
+              <div class="position-relative">
                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1641726/switzerland-image.jpg?w=500&h=333&f=85b0704e011d8f3be7c700def55ade28" alt="img">
                 <p class="badge badge-secondary text-uppercase text-left">Survey</p>
               </div>
@@ -1635,8 +1637,8 @@
               </div>
             </article>
 
-            <article class="mb-3 card sponsored">
-              <div class="image">
+            <article class="mb-3 card sponsored border">
+              <div class="position-relative">
                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1640732/holy-angel-university.jpg?w=500&h=333&f=eb1178ccc2ae44eb6ce60701d4e0cf7f" alt="img">
                 <p class="badge badge-secondary text-uppercase text-left">Sponsored Insight</p>
               </div>
@@ -1664,7 +1666,7 @@
       <div class="row bg-white pt-5">
        <div class="col-md-3">
         <article class="card magazine">
-          <div class="image">
+          <div class="position-relative">
             <img class="card-img-top" src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=360&amp;h=480&amp;q=90&amp;f=4ca581e7b87260aea3e67e88464a11f4" alt="img">
             <p class="badge badge-secondary text-uppercase text-left">OCTOBER 16 ISSUE</p>
           </div>
@@ -1679,7 +1681,7 @@
        </div>
         <div class="col-md-3">
           <article class="card article-magazine">
-            <div class="image articles" id="image-1">
+            <div class="articles" id="image-1">
              </div>
             <div class="d-flex">
               <p class="badge badge-secondary text-uppercase badge-magazine mt-2 w-25 bg-danger rounded-0 text-center p-2 position-relative text-white">COVER</p>
@@ -1696,7 +1698,7 @@
         </div>
         <div class="col-md-3">
           <article class="card article-magazine">
-            <div class="image articles" id="image-2">
+            <div class="articles" id="image-2">
              </div>
             <div class="d-flex">
               <p class="badge badge-secondary text-uppercase badge-magazine mt-2 w-30 bg-danger rounded-0 text-center p-2 position-relative text-white">FEATURES</p>
@@ -1713,7 +1715,7 @@
         </div>
         <div class="col-md-3">
           <article class="card article-magazine">
-            <div class="image articles" id="image-3">
+            <div class="articles" id="image-3">
              </div>
             <div class="d-flex">
               <p class="badge badge-secondary text-uppercase badge-magazine mt-2 w-25 bg-danger rounded-0 text-center p-2 position-relative text-white">COVER</p>
@@ -1731,7 +1733,7 @@
       <!-- Second line -->
       <div class="col-md-3">
         <article class="card article-magazine">
-          <div class="image articles" id="image-4">
+          <div class="articles" id="image-4">
            </div>
           <div class="d-flex">
             <p class="badge badge-secondary text-uppercase badge-magazine mt-2 w-25 bg-danger rounded-0 text-center p-2 position-relative text-white">COVER</p>
@@ -1748,7 +1750,7 @@
       </div>
       <div class="col-md-3">
         <article class="card article-magazine">
-          <div class="image articles" id="image-5">
+          <div class="articles" id="image-5">
            </div>
           <div class="d-flex">
             <p class="badge badge-secondary text-uppercase badge-magazine mt-2 w-25 bg-danger rounded-0 text-center p-2 position-relative text-white">COVER</p>
@@ -1765,7 +1767,7 @@
      </div>
      <div class="col-md-3">
       <article class="card article-magazine">
-        <div class="image articles" id="image-6">
+        <div class="articles" id="image-6">
          </div>
         <div class="d-flex">
           <p class="badge badge-secondary text-uppercase badge-magazine mt-2 w-25 bg-danger rounded-0 text-center p-2 position-relative text-white">COVER</p>
@@ -1782,7 +1784,7 @@
      </div>
      <div class="col-md-3">
       <article class="card article-magazine">
-        <div class="image articles" id="image-7">
+        <div class="position-relative articles" id="image-7">
           <p class="badge badge-secondary text-uppercase badge-magazine mt-2 w-25 bg-danger rounded-0 text-center p-2 position-absolute text-white">COVER</p>
         </div>
                  <div class="card-body pl-0 pr-0 pt-0 pb-0">
@@ -1803,7 +1805,7 @@
      <div class="row bg-white pt-5 pb-5">
        <div class="col-lg-3 mb-5 col-md-6">
            <article class="card">
-             <div class="image">
+             <div class="position-relative">
                <img alt="img" class="card-img-top"
                  src="https://d.newsweek.com/en/full/1645885/donald-melania-trump-debate.webp?w=397&h=265&q=90&f=e434ccded94ac92cf7401b2859c7d23e"
                 >
@@ -1823,7 +1825,7 @@
 
        <div class="col-lg-3 mb-5 col-md-6">
         <article class="card">
-          <div class="image">
+          <div class="position-relative">
             <img alt="img" class="card-img-top"
               src="https://d.newsweek.com/en/full/1645931/mark-zuckerberg.jpg?w=397&h=295&f=32c5bbd04a58d6c7717b9c50919211e3"
             >
@@ -1843,7 +1845,7 @@
 
        <div class="col-lg-3 mb-5 col-md-6">
         <article class="card">
-          <div class="image">
+          <div class="position-relative">
             <img alt="img" class="card-img-top"
               src="https://d.newsweek.com/en/full/1646016/democratic-senator-kamala-harris.jpg?w=397&h=295&f=2c69710bd57278a0b6dedca3251d479d"
              >
@@ -1863,7 +1865,7 @@
 
        <div class="col-lg-3 mb-5 col-md-6">
         <article class="card">
-          <div class="image">
+          <div class="position-relative">
             <img alt="img" class="card-img-top"
               src="https://d.newsweek.com/en/full/1646110/clarence-thomas.jpg?w=397&h=295&f=89b7dd1543082a742830d26ad95b7183"
              >
@@ -1883,7 +1885,7 @@
 
        <div class="col-lg-3 mb-5 col-md-6">
         <article class="card">
-          <div class="image">
+          <div class="position-relative">
             <img alt="img" class="card-img-top"
               src="https://d.newsweek.com/en/full/1646005/california-wildfires.jpg?w=397&h=295&f=e6712b0d9b66045fde432083488800b8"
              >
@@ -1903,7 +1905,7 @@
 
        <div class="col-lg-3 mb-5 col-md-6">
         <article class="card">
-          <div class="image">
+          <div class="position-relative">
             <img alt="img" class="card-img-top"
               src="https://d.newsweek.com/en/full/1645991/president-donald-trump-leaves-walter-reed.jpg?w=397&h=295&f=fb2b3922f56c80fa2de5b294f7e28d34"
             >
@@ -1923,7 +1925,7 @@
 
        <div class="col-lg-3 mb-5 col-md-6">
         <article class="card">
-          <div class="image">
+          <div class="position-relative">
             <img alt="img" class="card-img-top"
               src="https://d.newsweek.com/en/full/1646035/bear-fire-california-september-2020.jpg?w=397&h=295&f=e770ed389bb8d78b9f9e66860c53f1b4"
              >
@@ -1943,7 +1945,7 @@
 
        <div class="col-lg-3 mb-5 col-md-6">
         <article class="card">
-          <div class="image">
+          <div class="position-relative">
             <img alt="img" class="card-img-top"
               src="https://d.newsweek.com/en/full/1645923/prince-harry-meghan-markle-new-zealand.jpg?w=397&h=295&f=96f162a4ee830b40c5c10fc6bdcf50b5"
              >
@@ -1976,7 +1978,7 @@
         <div class="row">
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646368/university-utah.jpg?w=397&h=265&f=bc043ff98e579555dca292d19c472ea9"
                 >
@@ -1992,7 +1994,7 @@
           </div>
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646327/president-trump-white-house-balcony-october-2020.jpg?w=397&h=265&f=42cbc3ed8030595dddbb7c56f30aa3e2"
                  >
@@ -2066,7 +2068,7 @@
         <div class="row">
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646178/egypt-lgbtq-gay-police-abuse-rape-report.jpg?w=397&h=265&f=0953f5b03550f26bfe0349e2db71ae85"
                  >
@@ -2082,7 +2084,7 @@
           </div>
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646171/syria-rebel-turkey-flag.jpg?w=397&h=265&f=e824cb2cde5e5916e8fbe728d42ff988"
                  >
@@ -2156,7 +2158,7 @@
         <div class="row">
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646304/james-bond.jpg?w=397&h=265&f=df73872f0895f2fc582c2ae391bef780"
                  >
@@ -2172,7 +2174,7 @@
           </div>
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646074/regeneron-pharmaceuticals-stock-cocktail-treatment.jpg?w=397&h=265&f=bfd7bdd3c36579a3127279bc4d879624"
                  >
@@ -2246,7 +2248,7 @@
         <div class="row">
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646352/barry-arm-alaska.jpg?w=397&h=265&f=dab3e43621a143e59e4702f4cba5e87b"
                  >
@@ -2262,7 +2264,7 @@
           </div>
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646348/elon-musk.jpg?w=397&h=265&f=83f9990d3ade9b2eae303f8143aea359"
                  >
@@ -2337,7 +2339,7 @@
         <div class="row">
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646364/president-donald-trump-covid-19-coronavirus-getty.jpg?w=397&h=265&f=63f8063bb89f8403b4f8d248749b3837"
                  >
@@ -2353,7 +2355,7 @@
           </div>
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646338/glow-canceled.jpg?w=397&h=265&f=57004aaec378d30a828fea2255b49982"
                  >
@@ -2428,7 +2430,7 @@
         <div class="row">
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646245/patrick-mahomes-kansas-city-chiefs.jpg?w=397&h=265&f=4a08e68cd1f486b8779432cad4d3235e"
                  >
@@ -2444,7 +2446,7 @@
           </div>
           <div class="col-md-6 pl-0">
             <article class="card">
-              <div class="image">
+              <div class="position-relative">
                 <img alt="img" class="card-img-top"
                   src="https://d.newsweek.com/en/full/1646242/kara-goucher.jpg?w=397&h=265&f=003dac4c78a62b9e9d7880c289cbe441"
                  >
@@ -2563,7 +2565,9 @@
       <footer class="bg-white pt-4 border-top">
         <div class="row pb-3 border-bottom">
           <div class="col-12 col-md-9 d-md-flex d-block align-items-end">
-            <img width="263" src="./assets/images/logo_footer.png" alt="Logo Footer">
+            <a href="#">
+              <img width="263" src="./assets/images/logo_footer.png" alt="Logo Footer">
+            </a>
 
             <p class="pl-4 mt-3 mt-md-0">
               &copy; 2020 NEWSWEEK DIGITAL LLC
@@ -2588,100 +2592,100 @@
           </div>
         </div>
             <ul class="d-flex flex-row flex-wrap mt-2 footer-ul">
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link font-weight-bold">
-                  Editions
+                  Editions |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-1">
+              <li class="nav-item pl-1">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  U.S. edition
+                  U.S. edition |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  日本
+                  日本 |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Pakistan
+                  Pakistan |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Polskar
+                  Polskar |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Roumania
+                  Roumania |
                 </a>
               </li>
             </ul>
 
             <ul class="d-flex flex-row flex-wrap footer-ul">
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-3">
-                  About US
+                  About US |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Collections
+                  Collections |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Contact US
+                  Contact US |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Editorial Guidelines
+                  Editorial Guidelines |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Advertise
+                  Advertise |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Copyright
+                  Copyright |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Terms & Conditions
+                  Terms & Conditions |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Privacy policy
+                  Privacy policy |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0">
-                  Cookies policy
+                  Cookies policy |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0 ">
-                  Terms of sales
+                  Terms of sales |
                 </a>
               </li>
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link pr-0 pl-0 ">
-                  Archive
+                  Archive |
                 </a>
               </li>
 
             </ul>
             <ul class="d-flex flex-row flex-wrap footer-ul">
-              <li class="nav-item border-md-right pl-3">
+              <li class="nav-item pl-3">
                 <a href="#" class="nav-link">
-                  GDPR Privacy settings
+                  GDPR Privacy settings |
                 </a>
               </li>
             </ul>
