@@ -1,0 +1,268 @@
+/*
+    CSS Reset
+*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+}
+
+/* Global Setting */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+p {
+  color: #333;
+  font-weight: 100;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.features {
+  background-color: #f4f5f6;
+}
+
+.features h3 {
+  font-size: 15px;
+}
+
+/* Header section */
+
+.meteo-div p {
+  color: #fff;
+}
+
+.logo {
+  fill: white;
+}
+
+.header-bottom::before {
+  background-color: #dc3545;
+  border-left: 12px solid white;
+  border-top: 13px solid #dc3545;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 110px;
+}
+
+/* Main container */
+
+.main .badge,
+.magazine .badge {
+  background: #e8e7e8;
+  border-radius: 0;
+  bottom: 0;
+  color: #f72210;
+  font-size: 1rem;
+  left: 0;
+  position: absolute;
+  width: auto;
+}
+
+.culture .badge {
+  background: #c2d4d7;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.badge-magazine {
+  font-size: 15px;
+}
+
+.card {
+  border: 0;
+}
+
+.section-title {
+  color: #9a9a9a;
+}
+
+.card-title {
+  font-size: 1.3rem;
+}
+
+.my-turn {
+  color: #9a9a9a;
+}
+
+.sponsored .badge {
+  color: #3581f4;
+}
+
+.debate {
+  border-bottom: 4px solid #d9d9d9;
+  border-top: 4px solid #d9d9d9;
+  line-height: 20px;
+}
+
+.vs-debate::before,
+.vs-debate::after {
+  background-color: #d9d9d9;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.vs-debate::before {
+  top: 35%;
+}
+
+.vs-debate::after {
+  top: 50%;
+}
+
+.vs-debate div {
+  width: 10%;
+  z-index: 1;
+}
+
+.img-current {
+  top: 10%;
+  left: 25%;
+}
+
+.background-newsletter {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center no-repeat;
+  background-size: cover;
+}
+
+/* footer */
+
+footer i:hover {
+  color: #3b5998;
+}
+
+a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.my-turn a:hover {
+  color: #9a9a9a;
+}
+
+.features:hover {
+  background-color: #dbdcdd;
+}
+
+.features h3 a:hover {
+  text-decoration: none;
+}
+
+.header-bottom .navbar-nav .nav-link:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.footer-ul {
+  font-size: 13px;
+  color: #666;
+}
+
+h2.text-danger {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.newsletter {
+  height: 94%;
+}
+
+.opinion {
+  font-size: 14px;
+}
+
+.articles {
+  padding: 8rem;
+}
+
+#image-1 {
+  background: url(https://d.newsweek.com/en/full/1641924/fe-rbg-banner.jpg?w=466&h=311&l=44&t=48&q=90&f=af0eb1671e67711f928ea0a22de6d298) no-repeat center;
+  background-size: cover;
+}
+
+#image-2 {
+  background: url(https://d.newsweek.com/en/full/1640316/rbg-memorial.jpg?w=466&h=311&q=90&f=146a45944006b5527c954a6a500d9555) no-repeat center;
+  background-size: cover;
+}
+
+#image-3 {
+  background: url(https://d.newsweek.com/en/full/1641173/justice-ruth-bader-ginsburg.jpg?w=466&h=311&q=90&f=cf4341f456bddd4cc13da18215502584) no-repeat center;
+  background-size: cover;
+}
+
+#image-4 {
+  background: url(https://d.newsweek.com/en/full/1643970/per-latinovote-05-1158241102.jpg?w=466&h=311&q=90&f=9e390ddf1667e128c117c24d51cccd30) no-repeat center;
+  background-size: cover;
+}
+
+#image-5 {
+  background: url(https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.jpg?w=466&h=311&l=57&t=47&q=90&f=5ffa18499fcefd05d048d9bf9428c5bc) no-repeat center;
+  background-size: cover;
+}
+
+#image-6 {
+  background: url(https://d.newsweek.com/en/full/1639341/long-way-hero-2.jpg?w=466&h=311&q=90&f=b45862b19a0efd036338e3e8300df802) no-repeat center;
+  background-size: cover;
+}
+
+#image-7 {
+  background: url(https://d.newsweek.com/en/full/1643949/dissent.webp?w=480&h=320&q=90&f=69fbbe728e1afd8094f22fe131b01209) no-repeat center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .header-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .articles {
+    padding: 12rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .vs-debate div {
+    width: 3%;
+  }
+
+  .articles {
+    padding: 5rem;
+  }
+}
